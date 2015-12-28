@@ -20,9 +20,9 @@ The closest match that I could model was with the following formula:
 > Duration = 0.001 + (EXP(slider \* 0.5) - 1) / (EXP(10 \* 0.5) - 1) \* 3.25
 
 Where:
-0.001 = the minimum duration;
-3.25 = the maximum duration;
-0.5 = my fudge factor.
+* 0.001 = the minimum duration;
+* 3.25 = the maximum duration;
+* 0.5 = my fudge factor.
 
 ##Slope
 The attack rate for analog synths are normally slightly curved because the represent the charge-rate of a capacitor.
@@ -47,5 +47,5 @@ The closest match that I could model was:
 > Level = (1-EXP(-1 \* x)) / 0.632
 
 Where:
-x = values between 0.0 and 1.0 (based on how far through the attack-duration we are);
-0.632 = my fudge factor.
+* x = values between 0.0 and 1.0 (based on how far through the attack-duration we are);
+* 0.632 = my fudge factor.

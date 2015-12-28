@@ -7,7 +7,7 @@ The user guide tells us that the duration of the release segment ranges from 2ms
 The following values were measured directly from the Juno 60 (with the sustain-level set to 10):
 
 | Slider value | Duration (seconds) |
-| - | - |
+| --- | --- |
 | 0 | 0.002 |
 | 2.5 | 0.096 |
 | 5 | 0.984 |
@@ -21,15 +21,15 @@ The closest match that I could model was with the following formula:
 > Duration = 0.002 + (EXP(slider \* 0.4) - 1) / (EXP(10 \* 0.4) - 1) \* slider \* 0.1 \* 17.46
 
 Where:
-0.002 = the minimum duration;
-17.46 = the maximum duration;
-0.4 = my fudge factor.
+* 0.002 = the minimum duration;
+* 17.46 = the maximum duration;
+* 0.4 = my fudge factor.
 
 ###Duration (when sustain-level = 5)
 The following values were measured directly with the sustain-level set to 5:
 
 | Slider value | Duration (seconds) |
-| - | - |
+| --- | --- |
 | 0 | 0.001 |
 | 5 | 1.253 |
 | 10 | 17.11 |
@@ -42,7 +42,7 @@ The decay rate for analog synths is normally curved because the represent the ch
 The following values were measured when the slider was set to 10 (and the sustain-level is 0):
 
 | Position (seconds) | Normalized-level |
-| - | - | - |
+| --- | --- | --- |
 | 0.0 | 1.000 |
 | 1.0 | 0.764 |
 | 2.0 | 0.616 |
