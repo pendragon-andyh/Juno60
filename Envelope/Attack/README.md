@@ -1,4 +1,4 @@
-#[Analysis](../../Analysis) > [Envelope](../Envelope) > Attack
+#[Envelope](../Envelope) > Attack
 
 ##Duration
 The user guide tells us that the duration of the attack segment ranges from 1ms to 3s. The diagrams indicate that the duration at the half-way point of the attack slider is 1 second. However, the supporting text says that positions in the diagrams are not meant to be exactly correct.
