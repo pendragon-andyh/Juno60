@@ -1,4 +1,4 @@
-#[Envelope](../Envelope) > Attack
+#[Juno 60](../../) > [Envelope](../) > Attack
 
 ##Duration
 The user guide tells us that the duration of the attack segment ranges from 1ms to 3s. The diagrams indicate that the duration at the half-way point of the attack slider is 1 second. However, the supporting text says that positions in the diagrams are not meant to be exactly correct.
@@ -6,7 +6,7 @@ The user guide tells us that the duration of the attack segment ranges from 1ms 
 The following values were measured directly from the Juno 60:
 
 | Slider value | Duration (seconds) |
-| - | - |
+| --- | --- |
 | 0 | 0.001 |
 | 2.5 | 0.03 |
 | 5 | 0.24 |
@@ -30,7 +30,7 @@ The attack rate for analog synths are normally slightly curved because the repre
 The following values were measured when the slider was set to 10:
 
 | Duration (seconds) | Level |
-| - | - |
+| --- | --- |
 | 0.0 | 0.000 |
 | 0.5 | 0.224 |
 | 1.0 | 0.410 |
@@ -40,7 +40,7 @@ The following values were measured when the slider was set to 10:
 | 3.0 | 0.956 |
 | 3.25 | 1.000 |
 
-The xxxx book gives us the following generic formula for calcuation the level of the attack phase over time:
+The xxxx book gives us the following generic formula for calculation the level of the attack phase over time:
 > Level = (1 - EXP(-1.5 \* x) / 0.77
 
 The closest match that I could model was:

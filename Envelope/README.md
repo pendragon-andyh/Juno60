@@ -1,15 +1,15 @@
-#Envelope
+#[Juno 60](../../) > Envelope
 
 The Juno 60 envelope can shape the volume and/or timbre of notes.
 
-* [Attack](./Attack/README.md)
-* [Decay](./Decay/README.md)
-* [Release](./Release/README.md)
+* [Attack](./Attack/)
+* [Decay](./Decay/)
+* [Release](./Release/)
 
 Modulation destinations
-* [PWM](./PWM/README.md)
-* [LPF cutoff](./LPF/README.md)
+* [PWM](./PWM/)
+* [LPF cutoff](./LPF/)
 
 ##TODO
-* [Gate](./Gate/README.md)
-* [Retrigger](./Retrigger/README.md)
+* [Gate](./Gate/)
+* [Retrigger](./Retrigger/)

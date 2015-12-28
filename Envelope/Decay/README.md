@@ -1,4 +1,4 @@
-#[Envelope](../README.md) > Decay
+#[Juno 60](../../) > [Envelope](../) > Decay
 
 ##Duration
 The user guide tells us that the duration of the decay segment ranges from 2ms to 12s. The diagrams indicate that the duration at the half-way point of the decay slider is 1 second. However, the supporting text says that positions in the diagrams are not meant to be exactly correct.
