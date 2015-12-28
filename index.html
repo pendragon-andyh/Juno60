@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Juno60 by pendragon-andyh</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Juno60</h1>
+        <p>Analysis of Roland Juno60 sound</p>
+        <p class="view"><a href="https://github.com/pendragon-andyh/Juno60">View the Project on GitHub <small>pendragon-andyh/Juno60</small></a></p>
+        <ul>
+          <li><a href="https://github.com/pendragon-andyh/Juno60/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/pendragon-andyh/Juno60/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/pendragon-andyh/Juno60">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="juno60" class="anchor" href="#juno60" aria-hidden="true"><span class="octicon octicon-link"></span></a>Juno60</h1>
+
+<h2>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h2>
+
+<p>This project aims to analyse the sound of Roland's <a href="https://en.wikipedia.org/wiki/Roland_Juno-60">Juno 60</a> synthesizor with the eventual aim of recreating its distinctive sounds using the <a href="https://webaudio.github.io/web-audio-api/">Web Audio API</a>.</p>
+
+<p>I decomposed the Juno 60 into the following functional areas so that I can analyse each in isolation:</p>
+
+<ul>
+<li>
+<a href="DCO/">DCO</a> -
+<a href="DCO/Sawtooth/">Sawtooth</a>,
+<a href="DCO/PWM/">PWM</a>,
+<a href="DCO/Sub/">Sub oscillator</a>,
+<a href="DCO/Noise/">Noise</a>,
+<a href="DCO/Mixdown/">Mix down</a>
+</li>
+<li>
+<a href="Envelope/">Envelope</a> -
+<a href="Envelope/Attack/">Attack</a>,
+<a href="Envelope/Decay/">Decay</a>,
+<a href="Envelope/Release/">Release</a>,
+<a href="Envelope/PWM/">PWM modulation</a>,
+<a href="Envelope/LPF/">LPF modulation</a>
+</li>
+<li>TBC</li>
+</ul>
+
+<h2>
+<a id="testing" class="anchor" href="#testing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Testing</h2>
+
+<p>The test plan is documented <a href="TestPlan/">here</a>. Most of my analysis was carried-out using the brilliant <a href="http://www.sonicvisualiser.org/">Sonic Visualiser</a> software.</p>
+
+<h2>
+<a id="resources" class="anchor" href="#resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Resources</h2>
+
+<p>I found the following resources helpful for understanding the analogue synths.</p>
+
+<ul>
+<li><a href="Resources/Juno60/">URLs for Juno 60</a></li>
+<li>
+<a href="Resources/Juno106/">URLs for Juno 106</a> - has almost identical sound engine.</li>
+<li><a href="Resources/Books/">Books</a></li>
+<li><a href="Resources/WebAudioAPI/">Web Audio API</a></li>
+</ul>
+
+<p>Any mistakes and misinterpretations are entirely my fault.</p>
+
+<h2>
+<a id="licensing" class="anchor" href="#licensing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Licensing</h2>
+
+<p>Copyright (c) 2015 Andy Harman and Pendragon Software Limited.</p>
+
+<p>Released under the <a href="MIT-LICENSE.md">MIT license</a>. Please feel free to reuse the techniques developed in this project in your own projects.</p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/pendragon-andyh">pendragon-andyh</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
