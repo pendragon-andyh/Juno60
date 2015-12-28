@@ -1,4 +1,4 @@
-#[Juno 60](../../) > Envelope
+#[Juno 60](../) > Envelope
 
 The Juno 60 envelope can shape the volume and/or timbre of notes.
 

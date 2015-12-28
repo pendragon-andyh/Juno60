@@ -8,4 +8,4 @@ The "Gate" setting on the VCA causes a very simple envelope to be applied to the
 This is probably done to avoid clicks in the output.
 
 ##Slope
-Same as the normal envelope [attack](../Attack/README.md) and [release](../Release/README.md).
+Same as the normal envelope [attack](../Attack/) and [release](../Release/).
