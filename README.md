@@ -11,5 +11,6 @@ Analysis of Roland Juno 60 sound
 | hello | world |
 
 And bullet points:
+
 * Point 1
 * Point 2
