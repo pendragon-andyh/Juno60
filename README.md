@@ -18,6 +18,7 @@ I decomposed the Juno 60 into the following functional areas so that I can analy
 * [Filter](Filter/) -
     [VCF](Filter/VCF/),
     [HPF](Filter/HPF/)
+* [Chorus](Chorus/)
 * TBC
 
 ##Testing
