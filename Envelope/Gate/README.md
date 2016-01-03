@@ -1,4 +1,4 @@
-#[Juno 60](../../) > [Envelope](../) > Gate
+#[Juno 60](../../README.md) > [Envelope](../) > Gate
 
 ##Duration
 The "Gate" setting on the VCA causes a very simple envelope to be applied to the tone:

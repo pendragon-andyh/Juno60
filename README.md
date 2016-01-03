@@ -15,6 +15,9 @@ I decomposed the Juno 60 into the following functional areas so that I can analy
     [Release](Envelope/Release/),
     [PWM modulation](Envelope/PWM/),
     [LPF modulation](Envelope/LPF/)
+* [Filter](Filter/) -
+    [VCF](Filter/VCF/),
+    [HPF](Filter/HPF/)
 * TBC
 
 ##Testing

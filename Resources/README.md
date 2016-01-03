@@ -1,4 +1,4 @@
-#[Analysis](../README.md) > Resources
+#[Juno 60](../README.md) > Resources
 
 ##Books
 * [Designing Software Synthesizer Plug-ins in C++](Book_DesigningSynthPlugIns.md) - Will Pirkle
