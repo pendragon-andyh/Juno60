@@ -25,7 +25,7 @@ Where:
 * 0.5 = my fudge factor.
 
 ##Slope
-The attack rate for analog synths are normally slightly curved because the represent the charge-rate of a capacitor.
+The attack rate for analog synths are normally slightly curved because it is based upon the charge-rate of a capacitor.
 
 The following values were measured when the slider was set to 10:
 

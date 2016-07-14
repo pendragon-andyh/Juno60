@@ -6,25 +6,25 @@ All 6 voices are processed through the same high-pass filter. The slider for the
 | Slider position | Cut-off frequency |
 | --- | --- |
 | 0 | No filtering applied |
-| 1 | 250 Hz |
-| 2 | 520 Hz |
-| 3 | 1220 Hz |
+| 1 | Cutoff 6db per octave below 250 Hz |
+| 2 | Cutoff 6db per octave below 520 Hz |
+| 3 | Cutoff 6db per octave below 1220 Hz |
 
 Note: The cut-off frequencies above were worked-out by analysing the output (so they may be a little wrong).
 
 #Juno 106
-All 6 voices are processed through the same high-pass filter. The slider for the cut-off frequency has only 4 positions:
+The Juno 106 is a little different. The slider has only 4 positions, but position 0 boosts the base frequencies, and position 1 has no filtering:
 
 | Slider position | Cut-off frequency |
 | --- | --- |
 | 0 | Bass is boosted below 65 Hz by 6dB (low-shelf) |
 | 1 | No filtering applied |
-| 2 | 225 Hz |
-| 3 | 720 Hz |
+| 2 | Cutoff 6db per octave below 225 Hz |
+| 3 | Cutoff 6db per octave below 720 Hz |
 
 Figures from [KVR](http://www.kvraudio.com/forum/viewtopic.php?t=313797).
 
 #Juno 6
-All 6 voices are processed through the same high-pass filter. The slider for the cut-off frequency has a full range of values:
+All 6 voices are processed through the same high-pass filter. The slider for the cut-off frequency has a full range of values.
 
-Not measured
+Not measured, and not specified in Service Notes. However, the earlier Jupiter 4 had a range of 40Hz to 5kHz.

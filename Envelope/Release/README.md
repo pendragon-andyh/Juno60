@@ -37,7 +37,7 @@ The following values were measured directly with the sustain-level set to 5:
 This was a bit of a surprise for me. The xxxx book says that the delay duration on analog synths normally reduces when the sustain-level is increases.
 
 ##Slope
-The decay rate for analog synths is normally curved because the represent the charge-rate of a capacitor.
+The release rate for analog synths is normally curved because it is based upon the discharge-rate of a capacitor.
 
 The following values were measured when the slider was set to 10 (and the sustain-level is 0):
 
