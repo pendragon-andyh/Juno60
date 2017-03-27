@@ -1,6 +1,6 @@
-#Juno60
+# Juno60
 
-##Introduction
+## Introduction
 
 This project aims to analyse the sound of Roland's [Juno 60](https://en.wikipedia.org/wiki/Roland_Juno-60) synthesizor with the eventual aim of recreating its distinctive sounds using the [Web Audio API](https://webaudio.github.io/web-audio-api/).
 
@@ -24,11 +24,11 @@ I decomposed the Juno 60 into the following functional areas so that I can analy
 * [Chorus](Chorus/)
 * TBC
 
-##Testing
+## Testing
 
 The test plan is documented [here](TestPlan/). Most of my analysis was carried-out using the brilliant [Sonic Visualiser](http://www.sonicvisualiser.org/) software.
 
-##Resources
+## Resources
 
 I found the following resources helpful for understanding the analogue synths.
 * [URLs for Juno 60](Resources/Juno60/)
@@ -38,7 +38,7 @@ I found the following resources helpful for understanding the analogue synths.
 
 Any mistakes and misinterpretations are entirely my fault.
 
-##Licensing
+## Licensing
 Copyright (c) 2015 Andy Harman and Pendragon Software Limited.
 
 Released under the [MIT license](MIT-LICENSE.md). Please feel free to reuse the techniques developed in this project in your own projects.
