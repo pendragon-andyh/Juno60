@@ -1,9 +1,9 @@
-#[Juno 60](../../README.md) > [Envelope](../) > Decay
+# [Juno 60](../../README.md) > [Envelope](../) > Decay
 
-##Duration
+## Duration
 The user guide tells us that the duration of the decay segment ranges from 2ms to 12s. The diagrams indicate that the duration at the half-way point of the decay slider is 1 second. However, the supporting text says that positions in the diagrams are not meant to be exactly correct.
 
-###Duration (when sustain-level = 0)
+### Duration (when sustain-level = 0)
 The following values were measured directly from the Juno 60 (with the sustain-level set to 0):
 
 | Slider value | Duration (seconds) |
@@ -25,7 +25,7 @@ Where:
 * 17.46 = the maximum duration;
 * 0.4 = my fudge factor.
 
-###Duration (when sustain-level = 5)
+### Duration (when sustain-level = 5)
 The following values were measured directly with the sustain-level set to 5:
 
 | Slider value | Duration (seconds) |
@@ -36,7 +36,7 @@ The following values were measured directly with the sustain-level set to 5:
 
 This was a bit of a surprise for me. The xxxx book says that the delay duration on analog synths normally reduces when the sustain-level is increases.
 
-##Slope
+## Slope
 The decay rate for analog synths is normally curved because it is based upon the discharge-rate of a capacitor.
 
 The following values were measured when the slider was set to 10 (and the sustain-level is 0):
