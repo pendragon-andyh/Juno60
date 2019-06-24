@@ -69,13 +69,13 @@ The xxxx book gives us the following generic formula for calcuation the level of
 > Level = (EXP(-4.95 \* x \* RC)
 
 Where:
-* x = values between 0.0 and 1.0 (based on how far through the decay-phase we are);
+* x = values between 0.0 and 1.0 (based on how far through the release-phase we are);
 * RC = a constant that is based on the resistor \* capacitor on-which the envelope is based.
 
 The closest match that I could model was:
 > Level = (SustainLevel \* EXP(-3.5 \* x)) - EXP(-3.5)
 
 Where:
-* x = values between 0.0 and 1.0 (based on how far through the decay-phase we are);
+* x = values between 0.0 and 1.0 (based on how far through the release-phase we are);
 * SustainLevel = The level of the sustain slider (0.0 to 1.0).
 * -3.5 = my fudge factor.
