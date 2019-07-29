@@ -1,7 +1,7 @@
 # [Analysis](../README.md) > Chorus
 
 ## Summary
-The chorus effect is responsile for thickening-up the sound of the Juno 60. It takes a single channel from the [High pass filter](../Filter/HPF/README.me) and emits stereo channels.
+The chorus effect is responsible for thickening-up the sound of the Juno 60. It takes a single channel from the [High pass filter](../Filter/HPF/README.me) and emits stereo channels.
 
 The module contains 1 triangle-wave LFO, modulating 2 256-step Bucket-Brigade delay-lines (1 for left and 1 for right).  The modulation signal of the right delay-line is inverted so it is effectively 180 degrees out of phase with the left channel.
 

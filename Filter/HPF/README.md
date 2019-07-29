@@ -6,11 +6,11 @@ All 6 voices are processed through the same high-pass filter. The slider for the
 | Slider position | Cut-off frequency |
 | --- | --- |
 | 0 | No filtering applied |
-| 1 | Cutoff 6db per octave below 250 Hz |
-| 2 | Cutoff 6db per octave below 520 Hz |
-| 3 | Cutoff 6db per octave below 1220 Hz |
+| 1 | Cutoff 6db per octave below 154 Hz |
+| 2 | Cutoff 6db per octave below 339 Hz |
+| 3 | Cutoff 6db per octave below 720 Hz |
 
-Note: The cut-off frequencies above were worked-out by analysing the output (so they may be a little wrong).
+Note: The cut-off frequencies above were worked-out by calculating F=1/(2*pi*C*R).
 
 #Juno 106
 The Juno 106 is a little different. The slider has only 4 positions, but position 0 boosts the base frequencies, and position 1 has no filtering:
