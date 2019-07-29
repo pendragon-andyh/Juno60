@@ -1,9 +1,9 @@
-#[Juno 60](../../README.md) > [Envelope](../) > Release
+# [Juno 60](../../README.md) > [Envelope](../) > Release
 
-##Duration
+## Duration
 The user guide tells us that the duration of the release segment ranges from 2ms to 12s. The diagrams indicate that the duration at the half-way point of the release slider is 1 second. However, the supporting text says that positions in the diagrams are not meant to be exactly correct.
 
-###Duration (when sustain-level = 10)
+### Duration (when sustain-level = 10)
 The following values were measured directly from the Juno 60 (with the sustain-level set to 10):
 
 | Slider value | Duration (seconds) |
@@ -25,7 +25,7 @@ Where:
 * 17.46 = the maximum duration;
 * 0.4 = my fudge factor.
 
-###Duration (when sustain-level = 5)
+### Duration (when sustain-level = 5)
 The following values were measured directly with the sustain-level set to 5:
 
 | Slider value | Duration (seconds) |
@@ -36,7 +36,7 @@ The following values were measured directly with the sustain-level set to 5:
 
 This was a bit of a surprise for me. The xxxx book says that the delay duration on analog synths normally reduces when the sustain-level is increases.
 
-##Slope
+## Slope
 The release rate for analog synths is normally curved because it is based upon the discharge-rate of a capacitor.
 
 The following values were measured when the slider was set to 10 (and the sustain-level is 0):
@@ -69,13 +69,13 @@ The xxxx book gives us the following generic formula for calcuation the level of
 > Level = (EXP(-4.95 \* x \* RC)
 
 Where:
-* x = values between 0.0 and 1.0 (based on how far through the decay-phase we are);
+* x = values between 0.0 and 1.0 (based on how far through the release-phase we are);
 * RC = a constant that is based on the resistor \* capacitor on-which the envelope is based.
 
 The closest match that I could model was:
 > Level = (SustainLevel \* EXP(-3.5 \* x)) - EXP(-3.5)
 
 Where:
-* x = values between 0.0 and 1.0 (based on how far through the decay-phase we are);
+* x = values between 0.0 and 1.0 (based on how far through the release-phase we are);
 * SustainLevel = The level of the sustain slider (0.0 to 1.0).
 * -3.5 = my fudge factor.

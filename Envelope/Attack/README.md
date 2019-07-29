@@ -1,6 +1,6 @@
-#[Juno 60](../../README.md) > [Envelope](../) > Attack
+# [Juno 60](../../README.md) > [Envelope](../) > Attack
 
-##Duration
+## Duration
 The user guide tells us that the duration of the attack segment ranges from 1ms to 3s. The diagrams indicate that the duration at the half-way point of the attack slider is 1 second. However, the supporting text says that positions in the diagrams are not meant to be exactly correct.
 
 The following values were measured directly from the Juno 60:
@@ -24,7 +24,7 @@ Where:
 * 3.25 = the maximum duration;
 * 0.5 = my fudge factor.
 
-##Slope
+## Slope
 The attack rate for analog synths are normally slightly curved because it is based upon the charge-rate of a capacitor.
 
 The following values were measured when the slider was set to 10:
