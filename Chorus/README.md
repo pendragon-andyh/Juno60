@@ -9,7 +9,9 @@ The module contains 1 triangle-wave LFO, modulating 2 256-step Bucket-Brigade de
 | --- | --- | --- | --- | --- | --- |
 | Chorus 1 | 0.513 Hz | 0.00166 | 0.00535 | Stereo | Described as "mild chorus" |
 | Chorus 2 | 0.863 Hz | 0.00166 | 0.00535 | Stereo | Described as "deeper richer chorus" |
-| Chorus 1 + 2 | 15.175 Hz | 0.0033 | 0.0037 | Mono | Described as "similar to a Leslie rotary speaker" |
+| Chorus 1 + 2 | 9.24 Hz | 0.0033 | 0.0037 | Mono | Described as "similar to a Leslie rotary speaker" |
+
+For reference: The Juno-6 service notes PDF actually labels the frequencies as being 0.4Hz, 0.67Hz and 8.06Hz.
 
 I was worried that the Bucket-Brigade chips would introduce an large amount of bit-crushing to the effect - but it looks like the chips are effectively sampling at about 70kHz (so should be minor).
 
